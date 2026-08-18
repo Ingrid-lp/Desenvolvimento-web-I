@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Receita de Bolo de Fubá fofinho da vovó</h1>
+   
+
+   <ul>
+        <li>2 xícaras de chá de fubá (280 gramas)</li>
+
+        <li>1 xícara de chá de farinha de trigo (140 gramas)</li>
+
+        <li>3 ovos médios em temperatura ambiente</li>
+
+        <li>2 xícaras de chá de açúcar refinado (400 gramas)</li>
+
+        <li>2 xícaras de chá de leite em temperatura ambiente (480 ml)</li>
+
+        <li>2 colheres de sopa de manteiga em temperatura ambiente</li>
+
+        <li>2 colheres de sopa rasas de fermento químico em pó (fermento para bolo)</li>
+
+        <li>1 colher de chá de erva-doce (ou a gosto)</li>
+    </ul>
+
+    <strong>Com carinho <br>
+           Vovó Maria
+   </strong>
+   
+    <p style="color: blue;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et aspernatur autem commodi iure possimus sequi, tempore, quaerat eius dicta architecto ex provident ut fugiat 
+        quos inventore. Repellendus debitis aspernatur corporis.</p>
+
+
+    <table border="1" style="border-collapse: collapse;">
+    <tr>
+        <th colspan="3">Segunda-feira</th>
+    </tr>
+    <tr>
+        <th>Horário</th>
+        <th>Disciplina</th>
+        <th>Professor</th>
+    </tr>
+
+    <tr>
+        <td>9:10</td>
+        <td rowspan="2">Desenvolvimento Web I</td>
+        <td rowspan="2">Prof. Everaldo</td>
+    </tr>
+
+    <tr>
+        <td>10:15</td>
+    </tr>
+
+    <tr>
+        <td>11:05</td>
+        <td rowspan="2">Orientação a Objetos</td>
+        <td rowspan="2">Prof. João</td>
+    </tr>
+
+    <tr>
+        <td>11:55</td>
+    </tr>
+</table>
+<hr>
+
+    <table border="1" style="border-collapse: collapse;">
+    <caption>Notas dos alunos - Desenvolvimento Web I</caption>
+
+    <thead>
+        <tr>
+            <th>Aluno</th>
+            <th>1ª Avaliação</th>
+            <th>2ª Avaliação</th>
+            <th>Média</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>João</td>
+            <td>8,0</td>
+            <td>9,0</td>
+            <td>8,5</td>
+        </tr>
+
+        <tr>
+            <td>Maria</td>
+            <td>9,0</td>
+            <td>8,0</td>
+            <td>8,5</td>
+        </tr>
+
+        <tr>
+            <td>Pedro</td>
+            <td>7,0</td>
+            <td>8,0</td>
+            <td>7,5</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <th colspan="3">Média da turma</th>
+            <th>8,17</th>
+        </tr>
+    </tfoot>
+    
+</table>
+<hr>
+
+<form action="#" method="post">
+  <label for="valuex">Digite um valor:</label>
+    <input name="valuex" type="number" value="12.4" step="0.2" min="0" max="20" />
+  <label for="email">Email:</label>
+    <input type="email" name="email" placeholder="Digite seu email" required />
+  <label for="senha">Senha:</label> 
+    <input type="password" name="senha" placeholder="Digite sua senha" required />
+  <label for="color">Cor:</label>
+    <input type="color" name="color" value="#ff0000" />
+  <label for="date">Data:</label>
+    <input type="date" name="date" value="2024-06-01" />
+  <label for="datetime">Data e hora:</label>
+    <input type="datetime-local" name="datetime" value="2024-06-01T12:00" />
+  <label for="file" >Arquivo:</label>
+    <input type="file" name="file" />   
+  <label for="tel">Telefone:</label>
+    <input type="tel" name="tel" placeholder="Digite seu telefone" />
+  <label for="search">Pesquisa:</label>
+    <input type="search" name="search" placeholder="Digite sua pesquisa" />
+  <label for="valuex">Valor:</label>
+    <input name="valuex" type="range" value="12.4" step="0.2" min="0" max="20" />
+  <label for="login">Login:</label>
+    <input name="login" type="text" placeholder="Digite seu login" autofocus />
+    <input type="submit" value="Enviar" />
+  <label for="message">Mensagem:</label>
+    <textarea cols="30" rows="2" name="message" placeholder="Digite sua mensagem"></textarea>
+  <label for="curso">Curso:</label>
+  <select id="curso" name="curso">
+    <optgroup label="Cursos Técnicos">
+        <option value="info">Informática</option>
+        <option value="adm">Administração</option>
+        <option value="agro">Agropecuária</option>
+    </optgroup>
+
+    <optgroup label="Cursos Superiores">
+        <option value="ads">Análise e Desenvolvimento de Sistemas</option>
+        <option value="si">Sistemas para Internet</option>
+        <option value="eng">Engenharia de Software</option>
+    </optgroup>
+
+</select>
+
+</form>
+
+<form>
+    <label for="CEP">CEP:</label>
+    <input name="CEP" id="CEP" required pattern="\d{5}-\d{3}" />
+    </label>
+    <input type="submit" value="Enviar" />
+</form>
+
+<form>
+<fieldset>
+        <legend>Dados pessoais</legend>
+        <p>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+        </p>
+        <p>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email">
+        </p>
+</fieldset>
+
+<fieldset>
+        <legend>Endereço</legend>
+        <p>
+            <label for="rua">Rua:</label>
+            <input type="text" id="rua" name="rua">
+        </p>
+        <p>
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade">
+        </p>
+</fieldset>
+
+<button type="submit">Enviar</button>
+
+</form>
+
+
+
+</body>
+</html>
