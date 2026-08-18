@@ -1,0 +1,361 @@
+/* ===========================
+   ESTILO GERAL DA PÁGINA
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background:#f2f4f8;
+
+    color:#333;
+
+    line-height:1.7;
+
+}
+
+
+/* ===========================
+   CONTAINER
+=========================== */
+
+.container{
+
+    width:90%;
+
+    max-width:1100px;
+
+    margin:40px auto;
+
+}
+
+
+/* ===========================
+   TÍTULO PRINCIPAL
+=========================== */
+
+#inicio {
+    background:#1565C0;
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+
+    border-radius:10px;
+
+    margin-bottom:30px;
+
+}
+
+
+/* ===========================
+   TÍTULOS
+=========================== */
+
+.subtitulo{
+
+    color:#1565C0;
+
+    margin-bottom:15px;
+
+}
+
+h3{
+
+    color:#444;
+
+    margin-top:20px;
+
+    margin-bottom:10px;
+
+}
+
+
+/* ===========================
+   PARÁGRAFOS
+=========================== */
+
+p{
+
+    margin-bottom:15px;
+
+}
+
+
+/* ===========================
+   ÍNDICE
+=========================== */
+
+ol{
+
+    background:white;
+
+    padding:20px 40px;
+
+    border-radius:10px;
+
+    box-shadow:0px 0px 10px rgba(0,0,0,.10);
+
+    margin-bottom:30px;
+
+}
+
+ol li{
+
+    margin-bottom:10px;
+
+}
+
+
+/* ===========================
+   LINKS
+=========================== */
+
+a{
+
+    color:#1565C0;
+
+    text-decoration:none;
+
+    transition:0.3s;
+
+}
+
+a:hover{
+
+    color:#E53935;
+
+    text-decoration:underline;
+
+}
+
+
+/* ===========================
+   SEÇÕES
+=========================== */
+
+section{
+
+    background:white;
+
+    padding:25px;
+
+    margin-bottom:30px;
+
+    border-radius:10px;
+
+    box-shadow:0 3px 10px rgba(0,0,0,.12);
+
+    transition:.3s;
+
+}
+
+section:hover{
+
+    transform:translateY(-4px);
+
+}
+
+
+/* ===========================
+   EXEMPLOS
+=========================== */
+
+pre{
+
+    background:#272822;
+
+    color:#ffffff;
+
+    padding:20px;
+
+    border-radius:8px;
+
+    overflow:auto;
+
+    margin-top:15px;
+
+    margin-bottom:20px;
+
+}
+
+
+/* ===========================
+   CÓDIGO
+=========================== */
+
+code{
+
+    background:#eeeeee;
+
+    padding:3px 6px;
+
+    border-radius:4px;
+
+    color:#c62828;
+
+}
+
+
+/* ===========================
+   LISTAS
+=========================== */
+
+ul{
+
+    margin-left:25px;
+
+    margin-bottom:20px;
+
+}
+
+ol{
+
+    margin-left:25px;
+
+}
+
+dl{
+
+    background:#fafafa;
+
+    padding:20px;
+
+    border-left:5px solid #1565C0;
+
+    margin-top:20px;
+
+}
+
+dt{
+
+    font-weight:bold;
+
+    color:#1565C0;
+
+}
+
+dd{
+
+    margin-bottom:15px;
+
+    margin-left:20px;
+
+}
+
+
+/* ===========================
+   LINHA HORIZONTAL
+=========================== */
+
+hr{
+
+    border:none;
+
+    height:1px;
+
+    background:#d8d8d8;
+
+    margin:40px 0;
+
+}
+
+
+/* ===========================
+   MARCAÇÃO
+=========================== */
+
+mark{
+
+    background:#fff176;
+
+}
+
+
+/* ===========================
+   BLOCOS DE OBSERVAÇÃO
+=========================== */
+
+.obs{
+
+    background:#FFF8DC;
+
+    border-left:6px solid orange;
+
+    padding:15px;
+
+    margin:20px 0;
+
+}
+
+
+/* ===========================
+   BOTÃO VOLTAR AO TOPO
+=========================== */
+
+.topo{
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    background:#1565C0;
+
+    color:white;
+
+    padding:10px 18px;
+
+    border-radius:5px;
+
+}
+
+.topo:hover{
+
+    background:#0D47A1;
+
+    color:white;
+
+    text-decoration:none;
+
+}
+
+
+/* ===========================
+   RESPONSIVIDADE
+=========================== */
+
+@media(max-width:768px){
+
+    h1{
+
+        font-size:28px;
+
+    }
+
+    h2{
+
+        font-size:24px;
+
+    }
+
+    h3{
+
+        font-size:20px;
+
+    }
+
+    body{
+
+        font-size:17px;
+
+    }
+
+}

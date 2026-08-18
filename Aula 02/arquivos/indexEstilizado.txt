@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial HTML</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<div class="container">
+<h1 id="inicio">Tutorial HTML</h1>
+<hr>
+<h2> Indice</h2>
+    <ol>
+        <li><a href="#titulos">Titulos em HTML</a></li>
+        <li><a href="#paragrafos">Paragrafos em HTML</a></li>
+        <li><a href="#formatacao">Formatação em HTML</a></li>
+        <li><a href="#listas">Listas em HTML</a></li>
+        <li><a href="#links">Links em HTML</a></li>
+        <li><a href="#imagens">Imagens</a></li>
+        <li><a href="#tabelas">Tabelas</a></li>
+        <li><a href="#formularios">Formulários</a></li>
+        <li><a href="#divspan">Div e Span</a></li>
+        <li><a href="#semantica">Tags Semânticas</a></li>
+
+    </ol>
+<hr>
+<section id="titulos">
+    <h2 class="subtitulo">1. Titulos em HTML</h2>
+    <p>As tags &lt;h1&gt; até &lt;h6&gt; representan niveis de titulos</p>
+
+    <h3>Exemplo:</h3>
+    <h1>Texto do titulo h1</h1>
+    <h2>Texto do titulo h2</h2>
+    <h3>Texto do titulo h3</h3>
+    <h4>Texto do titulo h4</h4>
+    <h5>Texto do titulo h5</h5>
+    <h6>Texto do titulo h6</h6>
+
+    <a class="topo" href="#inicio"> ↑ Voltar ao topo </a>
+</section>
+<hr>
+<section id="paragrafos">
+    <h2 class="subtitulo">2. Paragrafos em HTML</h2>
+    <p>As tags &lt;p&gt; representam paragrafos</p>
+
+    <h3>Exemplo:</h3>
+    &lt;p&gt; Paragrafo com a tag p &lt;/p&gt;
+    
+    <p>OBS: Podemos preencher este paragrafo utilizando o Lorem Ipsum</p>
+    <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+         mollit anim id est laborum.
+    </p>
+    <a class="topo" href="#inicio"> ↑ Voltar ao topo </a>
+</section>
+<hr>
+<section id="formatacao">
+<h2 class="subtitulo">3. Formatação em HTML</h2>
+<p>A formatação em HTML permite que você destaque e organize o conteúdo de sua página web.  </p>
+ 
+<h3>Exemplo:</h3>
+<p>Você pode usar tags como &lt;b&gt; para negrito</p> Ex: <b>Texto em negrito</b>
+<p>Você pode usar tags como &lt;i&gt; para itálico</p> Ex: <i>Texto em itálico</i>
+<p>Você pode usar tags como &lt;u&gt; para sublinhado</p> Ex: <u>Texto sublinhado</u>
+<p>Você pode usar tags como &lt;strong&gt; para destaque negrito</p> Ex: <strong>Texto em destaque negrito</strong>
+<p>Você pode usar tags como &lt;em&gt; para destaque itálico</p> Ex: <em>Texto em destaque itálico</em>
+<p>Você pode usar tags como &lt;sub&gt; para subscrito</p> Ex: H<sub>2</sub>O
+<p>Você pode usar tags como &lt;sup&gt; para sobrescrito</p> Ex: x<sup>2</sup>
+<p>Você pode usar tags como &lt;mark&gt; para destacar</p> Ex: <mark>Texto destacado</mark>
+<p>Você pode usar tags como &lt;pre&gt; para posicionar texto na tela</p> 
+Ex: <pre>Texto1
+                               Texto2
+                  Texto3
+    </pre>
+<a class="topo" href="#inicio"> ↑ Voltar ao topo </a>
+</section>
+<hr>
+<section id="listas">
+    <h2 class="subtitulo">4. Listas em HTML</h2>
+    <p>As listas em HTML permitem organizar informações de forma estruturada. Existem três tipos 
+        principais de listas: listas ordenadas, listas não ordenadas e listas de definição.</p>
+
+    <h3>Exemplo Lista não ordenada:</h3>
+    <ul>
+        <li> Pastel
+            <ul>
+                <li>Massa</li>
+                <li>Proteina (frango, carne, palmito)</li>
+                <li>Molho vinagrete(opcional)</li>
+            </ul>
+        </li> 
+        <li> Crepe
+            <ul>
+                <li>Massa preparada</li>
+                <li>Proteina (presunto, queijo, nutela, doce de leite)</li>
+                <li>Cobertura (doces: brigadeiro, nutela)</li>
+            </ul>
+        </li>
+        <li> Bolo
+            <ul>
+                <li>Massa do bolo</li>
+                <li>Recheio (morango, chocolate, brigadeiro, doce de leite)</li>
+                <li>Cobertura (doces: brigadeiro, nutela, chantilly)</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3>Exemplo Lista ordenada:</h3>
+
+    <ol>
+        <li>Corinthians</li>
+        <li>Athletico Paranaense</li>
+        <li>Coritiba</li>
+        <li>Santos</li>
+        <li>Flamengo</li>
+    </ol>
+
+<h3>Exemplo Lista de definição:</h3>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação utilizada para estruturar conteúdo na web.</dd>
+
+        <dt>CSS</dt>
+        <dd>Linguagem de estilo utilizada para definir a aparência visual de páginas web.</dd>
+
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação utilizada para adicionar interatividade e dinamismo às páginas web.</dd>
+   </dl>
+   <a class="topo" href="#inicio"> ↑ Voltar ao topo </a>
+</section>
+<hr>
+<section id="links">
+<h2 class="subtitulo">5. Links em HTML</h2>
+   <p>A tag &lt;a&gt; cria links com outros documentos ou âncoras.</p>
+
+   <h3>Exemplo link pagina externa:</h3>
+    &lt;a href="https://www.google.com" target="_blank">Acesse o Google &lt;/a&gt;
+    <p><a href="http://www.google.com.br" target="_blank">Clique aqui para abrir o Google</a></p>
+    
+    
+    <h3>Exemplo link pagina interna:</h3>
+     &lt;a href="pagina2.html" target="_blank">Acesso Pagina 2 &lt;/a&gt;
+    <p><a href="pagina2.html">Clique aqui para abrir a Página 2</a></p>
+
+    <h3>Exemplo Ancora:</h3>
+     &lt;a href="#nome">Acesso ao item &lt;/a&gt;
+    <p><a href="#inicio">Clique aqui para ir para inicio da pagina</a></p>
+<a class="topo" href="#inicio"> ↑ Voltar ao topo </a>
+</section>
+
+<hr>
+<section id="imagens">
+<h2 class="subtitulo">7. Imagens</h2>
+<pre><code>&lt;img src="html.png" alt="Logo HTML" width="150"&gt;</code></pre>
+<p>Salve uma imagem chamada <b>html.png</b> na mesma pasta para visualizar.</p>
+
+<a class="topo" href="#inicio"> ↑ Voltar ao topo </a>
+</section>
+<hr>
+
+<section id="tabelas">
+<h2 class="subtitulo">8. Tabelas</h2>
+<pre><code>&lt;table border="1"&gt;...&lt;/table&gt;</code></pre>
+<table border="1">
+<tr><th>Linguagem</th><th>Ano</th></tr>
+<tr><td>HTML</td><td>1993</td></tr>
+<tr><td>CSS</td><td>1996</td></tr>
+</table>
+<a class="topo" href="#inicio"> ↑ Voltar ao topo </a>
+</section>
+
+<hr>
+
+<section id="formularios">
+<h2 class="subtitulo">9. Formulários</h2>
+<pre><code>&lt;form&gt;
+&lt;input type="text"&gt;
+&lt;/form&gt;</code></pre>
+<form>
+<label>Nome</label><br>
+<input type="text"><br><br>
+<label>Email</label><br>
+<input type="email"><br><br>
+<input type="submit" value="Enviar">
+</form>
+<a class="topo" href="#inicio"> ↑ Voltar ao topo </a>
+</section>
+<hr>
+
+<section id="divspan">
+    <h2 class="subtitulo">10. Div e Span</h2>
+    <p><strong>DIV</strong> agrupa blocos de conteúdo.</p>
+    <div>
+        <p>Conteúdo dentro de uma div.</p>
+    </div>
+
+
+<p>O <span>SPAN</span> destaca apenas uma parte do texto.</p>
+
+<pre><code>&lt;div&gt;
+   Conteúdo
+&lt;/div&gt;
+
+&lt;p&gt;Texto &lt;span&gt;destacado&lt;/span&gt;&lt;/p&gt;</code></pre>
+<a class="topo" href="#inicio"> ↑ Voltar ao topo </a>
+</section>
+<hr>
+
+<section id="semantica">
+<h2 class="subtitulo">11. Tags Semânticas</h2>
+<header><h3>Header</h3></header>
+<nav>Home | Cursos | Contato</nav>
+<main>
+<article>
+<p>Article representa conteúdo independente.</p>
+</article>
+</main>
+<footer>Rodapé</footer>
+<a class="topo" href="#inicio"> ↑ Voltar ao topo </a>
+</section>
+
+<pre><code>&lt;header&gt;&lt;/header&gt;
+&lt;nav&gt;&lt;/nav&gt;
+&lt;main&gt;&lt;/main&gt;
+&lt;article&gt;&lt;/article&gt;
+&lt;footer&gt;&lt;/footer&gt;</code></pre>
+
+
+</div>
+
+ <body>
+</html>
