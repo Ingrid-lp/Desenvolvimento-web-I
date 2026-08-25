@@ -172,20 +172,20 @@ Ex: <pre>Texto1
         <blockquote cite="https://www.google.com">"A única maneira de fazer um grande 
             trabalho é amando o que se faz." (Steve Jobs)</blockquote>
 
-   <hr>
-   <h2 id="imagens">7. Imagens em HTML</h2>
-    <p>A tag &lt;img&gt; é utilizada para inserir imagens
-         em uma página web.</p>
-    
-    <h3>Exemplo:</h3>
-   <p>&lt;img src="imagem.jpg" alt="Descrição da imagem" width="300" height="200"&gt;</p>
+    <hr>
+        <h2 id="imagens">7. Imagens em HTML</h2>
+            <p>A tag &lt;img&gt; é utilizada para inserir imagens
+                em uma página web.</p>
+            
+            <h3>Exemplo:</h3>
+        <p>&lt;img src="imagem.jpg" alt="Descrição da imagem" width="300" height="200"&gt;</p>
 
-    <img src="assets/img/images.jfif" alt="Capivarinha" width="300" height="200">
-    <img src="assets/img/images (1).jfif" alt="Miranha" width="300" height="200">
-    <img src="assets/img/images (2).jfif" alt="Fusca Potente" width="300" height="200">
+            <img src="assets/img/images.png" alt="Capivarinha" width="300" height="200">
+            <img src="assets/img/images (1).png" alt="Miranha" width="300" height="200">
+            <img src="assets/img/images (2).png" alt="Fusca Potente" width="300" height="200">
 
-     <hr>
-   <h2 id="tabelas">8. Tabelas em HTML</h2>
+    <hr>
+    <h2 id="tabelas">8. Tabelas em HTML</h2>
     <p>A tag &lt;table&gt; é utilizada para criar tabelas em uma página web.</p>
     <p>&lt;tr&gt; - Cria uma linha na tabela</p>
     <p>&lt;th&gt; - Cria uma célula de cabeçalho na tabela</p>
@@ -329,21 +329,45 @@ Ex: <pre>Texto1
 
             <p>
                 <input type="radio" name="seleciona3">
-                <label for="seleciona3">Concorda com os termos?</label>
+                <label for="seleciona3">CPF</label>
                 <input type="radio" name="seleciona4">
-                <label for="seleciona4">Aceita receber novidades?</label>
+                <label for="seleciona4">CNPJ</label>
             </p>
+
+            <p>
+                <label for="opcoes">Escolha um estado:</label>
+                <select name="opcoes">
+                    <option value="opcao1">São Paulo</option>
+                    <option value="opcao2">Paraná</option>
+                    <option value="opcao3">Minas Gerais</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="opcoes">Digite a mensagem:</label>
+                <textarea maxlength="100" name="opcoes" rows="4" cols="50" placeholder="Digite seu endereço">
+            </textarea>
+            </p>
+            <input type="color" name="cores" value="valor oculto">
+            <input type="date" name="data" value="valor oculto">
+            <input type="number" name="numero" value="valor oculto">
+            </p>
+
         </fieldset>
 
         <fieldset>
             <legend>Endereço</legend>
-            <p><label for="nome">Nome: </label>
-            <input type="text" name="nome" placeholder="Digite seu nome"></p>
-    
-            <p><label for="email">Email: </label>
-            <input type="email" name="email" placeholder="Formato: teste@email.com"></p>
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" placeholder="Digite seu nome">
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="Formato: teste@email.com">
+            </p>
         </fieldset>
     </form>
 
-    <body>
-</html>
+
+    </body>
+    </html>
