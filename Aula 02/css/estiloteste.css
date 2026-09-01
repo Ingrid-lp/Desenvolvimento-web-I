@@ -1,0 +1,65 @@
+/* *
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* Estilo para o topo da pagina */
+header
+{
+    background-color: rgb(236, 97, 97);
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para a navegação da pagina */
+nav ul li
+{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav
+{
+    background-color: red;
+    padding: 10px 1px;
+}
+
+nav a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+/* Estilo para o rodapé da pagina */
+footer
+{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+/* Estilo para as imagens da pagina */
+img
+{
+    width: 220px;
+    height: 200px;
+}
+
+figure
+{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+
+figure:hover
+{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
