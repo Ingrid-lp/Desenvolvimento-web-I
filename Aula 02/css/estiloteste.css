@@ -1,57 +1,44 @@
-/* *
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
 
-/* Estilo para o topo da pagina */
-header
-{
-    background-color: rgb(236, 97, 97);
-    color: black;
+/* Estilo para o topo da pagina*/
+header {
+    background-color: #ded7d7;
     text-align: center;
     padding: 20px;
 }
 
-/* Estilo para a navegação da pagina */
-nav ul li
-{
+/*Estilo para a navegação da pagina*/
+nav ul li {
     display: inline-block;
     margin-right: 10px;
 }
 
-nav
-{
-    background-color: red;
+nav {
+    background-color: #201e1e;
     padding: 10px 1px;
 }
 
-nav a
-{
-    color: white;
+nav a {
+    color: #fff;
     text-decoration: none;
     padding: 5px 10px;
 }
 
-/* Estilo para o rodapé da pagina */
-footer
-{
-    background-color: red;
-    color: white;
+/*Estilo para o rodapé da pagina*/
+footer {
+    background-color: #201e1e;
+    color: #fff;
     text-align: center;
-    padding: 10px 10px;
+    padding: 10px 10px 
 }
 
-/* Estilo para as imagens da pagina */
-img
-{
-    width: 220px;
-    height: 200px;
+/*Estilo para as imagens da pagina*/
+img {
+    width: 150px;
+    height: 230px;
+    
 }
 
-figure
-{
+figure {
     text-align: center;
     margin: 20px;
     padding: 10px;
@@ -59,7 +46,63 @@ figure
     display: inline-block;
 }
 
-figure:hover
-{
+figure:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+body{
+   background-image: url('assets/img/planofundo.jpeg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+}
+
+.sobre2 {
+   font-family: Arial, sans-serif;
+   font-size: 20px;
+   font-variant: normal;
+   font-weight: bold;
+   font-style: italic;
+   color:white;
+   text-align: justify;
+}
+
+.sobre2:hover {
+   color: #1916d2;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+}
+
+.msg1:focus {
+   background-color: #e7ef06;
+   border-color: #007bff;
+   outline: none;
+
+}
+
+.lista1 {
+    list-style-image: url('assets/img/book.png');
+   
+    
+}
+
+.quadrado1 {
+    width: 100px;
+    height: 100px;
+    background-color: #0ede37;
+    border: 1px solid #ccc;
+    padding: 1px;
+    margin: 1px;
+    position: fixed;
+    top: 10px;
+    right: 0px;
+    bottom: 0px;
+    left:10px;
+
+    
+}
+
+.secao10{
+    font-size:40px;
 }
