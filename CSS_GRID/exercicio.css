@@ -1,0 +1,71 @@
+.container-pai
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 1fr 50px 1fr 1fr;
+    grid-template-areas: 
+        "header header header img"
+        "text text2 text3 aside"
+        "content content content aside"
+        "footer footer footer footer";
+    background-color: red;
+}
+
+.container-pai div
+{
+    background-color: rgb(85, 131, 172);
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.container-pai div.header
+{
+    grid-area: header;
+    background-color: aquamarine;
+}
+
+.container-pai div.img
+{
+    display: flex;
+    grid-area: img;
+    background-color: purple;
+}
+
+.container-pai div.text
+{
+    grid-area: text;
+    background-color: aliceblue;
+}
+
+.container-pai div.text2
+{
+    grid-area: text2;
+    background-color: rgb(175, 204, 229);
+}
+
+.container-pai div.text3
+{
+    grid-area: text3;
+    background-color: rgb(138, 187, 230);
+}
+
+.container-pai div.content
+{
+    grid-area: content;
+    grid-row: 3 / span 1;
+    background-color: bisque;
+}
+
+.container-pai div.aside
+{
+    grid-area: aside;
+    grid-row: 2 / span 3;
+    background-color: plum;
+}
+
+.container-pai div.footer
+{
+    grid-area: footer;
+    background-color: tomato;
+}

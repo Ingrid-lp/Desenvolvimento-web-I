@@ -1,0 +1,49 @@
+.container-pai
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 1fr 400px 1fr;
+    grid-template-areas: 
+        "header header header"
+        "menu conteudo conteudo"
+        "footer footer conteudo2";
+    background-color: red;
+}
+
+.container-pai div
+{
+    background-color: rgb(85, 131, 172);
+    border: 1px solid black;
+    padding: 2px;
+    text-align: center;
+}
+
+.container-pai div.header
+{
+    grid-area: header;
+    background-color: aquamarine;
+}
+
+.container-pai div.menu
+{
+    grid-area: menu;
+    background-color: aliceblue;
+}
+
+.container-pai div.conteudo
+{
+    grid-area: conteudo;
+    background-color: bisque;
+}
+
+.container-pai div.conteudo2
+{
+    grid-area: conteudo2;
+    background-color: plum;
+}
+
+.container-pai div.footer
+{
+    grid-area: footer;
+    background-color: tomato;
+}
