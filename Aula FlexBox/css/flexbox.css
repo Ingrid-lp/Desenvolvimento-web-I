@@ -1,0 +1,50 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-pai
+{
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /*flex-flow: row nowrap;  ou usa esse que faz as duas linhas de cima*/ 
+}
+
+nav
+{
+    width: 100%;
+    height: 60px;
+    background-color: aqua;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+footer
+{
+    width: 100%;
+    height: 60px;
+    background-color: aqua;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+main
+{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.item-1, .item-2, .item-3, .item-4, .item-5, .item-6
+{
+    width: 400px;
+    height: 200px;
+    background-color: cadetblue;
+    border-radius: 5px;
+    text-align: center;
+}
